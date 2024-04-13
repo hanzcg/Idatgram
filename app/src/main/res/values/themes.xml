@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.Idatgram" parent="Base.Theme.Idatgram" />
+    <style name="SplashScreen" parent="Theme.Idatgram">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
 </resources>
