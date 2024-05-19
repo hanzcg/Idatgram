@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Idatgram</string>
+    
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="preference_file_key">Idatgram_DATA_PREFERENCES</string>
+    
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

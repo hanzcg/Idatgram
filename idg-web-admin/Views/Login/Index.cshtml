@@ -1,0 +1,47 @@
+﻿@model idg_web_admin.Models.AdminModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Index</title>
+</head>
+<body>
+    <div style="margin: auto; padding: 10px;">
+        <div style="text-align:center;">
+            <img src="~/img/logo_texto_idat.png" /><br />&nbsp;
+        </div>
+        <div class="card border-secondary mb-3" style="max-width: 30rem; margin:auto;">
+            <div class="card-header">Login</div>
+            <div class="card-body">
+                @* <h4 class="card-title">Secondary card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> *@
+                
+                <form asp-action="VerifyAccess">
+                    <div class="form-group">
+                        <label asp-for="User" class="control-label"></label>
+                        <input asp-for="User" class="form-control" autocomplete="off" />
+                        <span asp-validation-for="User" class="text-danger"></span>
+                    </div>
+                    &nbsp;
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" type="password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    &nbsp;
+                    <div class="form-group">
+                        <input type="submit" value="Verificar Acceso" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
