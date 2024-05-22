@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546771237287",
+    "project_id": "idatgram-d38a8",
+    "storage_bucket": "idatgram-d38a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546771237287:android:abc52a058879264a5b9e82",
+        "android_client_info": {
+          "package_name": "idat.damii.idatgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546771237287-ocrpojdu2hdiqhf0qrsl8ur4lnbjqdpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5ulGJSxpnrIYP7-j9aSX4f5n_1skraGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546771237287-ocrpojdu2hdiqhf0qrsl8ur4lnbjqdpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
